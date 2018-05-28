@@ -1,0 +1,33 @@
+"DOTAAbilities"
+{
+"item_mana_modifier"
+{
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"						"item_datadriven"
+	
+		"Modifiers"
+		{
+			"modifier_mana_bonus"
+			{
+				"IsHidden"			"1"  
+				"Attributes"		"MODIFIER_ATTRIBUTE_PERMANENT"
+				"Properties"
+				{
+					
+					"MODIFIER_PROPERTY_MANA_BONUS"	"1"
+				}
+			}
+	
+			"modifier_mana_penalty"
+			{
+				"IsHidden"			"1"  
+				"Attributes"		"MODIFIER_ATTRIBUTE_PERMANENT"
+				"Properties"
+				{
+				
+					"MODIFIER_PROPERTY_MANA_BONUS"	"-1"
+				}
+			}
+		}
+	}
+}
